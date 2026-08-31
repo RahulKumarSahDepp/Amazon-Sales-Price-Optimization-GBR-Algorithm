@@ -1,6 +1,6 @@
 # Amazon-Sales-Price-Optimization-GBR-Algorithm
 Tuned GBR model (R² 0.637) predicts Amazon demand ($\log(\text{Sales})$) from price, reviews &amp; status. Optimizes pricing strategy by simulating revenue; confirmed social proof is 7x stronger than price.
-# 💰 Amazon Product Pricing Optimization Model
+# Amazon Product Pricing Optimization Model
 
 This project is an end-to-end Machine Learning implementation focused on maximizing revenue for Amazon sellers by predicting product demand (sales volume) as a function of pricing, quality, and promotional status.
 
@@ -8,7 +8,7 @@ The final model is a **Tuned Gradient Boosting Regressor (GBR)**, which achieved
 
 ---
 
-## 🛠️ 1. Data Cleaning and Preparation
+## 1. Data Cleaning and Preparation
 
 The initial dataset was messy, containing string representations of numbers, complex date formats, and redundant data.
 
@@ -21,7 +21,7 @@ The initial dataset was messy, containing string representations of numbers, com
 
 ---
 
-## 🔎 2. Exploratory Data Analysis (EDA)
+## 2. Exploratory Data Analysis (EDA)
 
 The EDA focused specifically on identifying the true linear and non-linear drivers of demand to inform feature selection.
 
@@ -34,7 +34,7 @@ The EDA focused specifically on identifying the true linear and non-linear drive
 
 ---
 
-## 🧠 3. Model Building and Evaluation
+## 3. Model Building and Evaluation
 
 The problem was structured as a **Regression Task** to predict the continuous variable $\log(\text{Sales})$.
 
